@@ -1,0 +1,25 @@
+{
+  "name": "GRIND",
+  "symbol": "GRIND",
+  "description": "GRIND is a Solana community utility token built around discipline, self-improvement, fitness culture, rewards, and real community impact. Seedling stage begins here.",
+  "image": "https://YOUR-DOMAIN-HERE/assets/grind-token.svg",
+  "external_url": "https://YOUR-DOMAIN-HERE/",
+  "attributes": [
+    {
+      "trait_type": "Stage",
+      "value": "Seedling"
+    },
+    {
+      "trait_type": "Chain",
+      "value": "Solana"
+    },
+    {
+      "trait_type": "Type",
+      "value": "Community Utility Token"
+    },
+    {
+      "trait_type": "Mint",
+      "value": "B8kjzrZJkwNryARFBEKmUEHWCywwgnzZF2NJdTgZuyqf"
+    }
+  ]
+}

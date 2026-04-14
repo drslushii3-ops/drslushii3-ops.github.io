@@ -1,0 +1,30 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 320) rotate(90) scale(704)">
+      <stop stop-color="#1B2538"/>
+      <stop offset="1" stop-color="#0A0D14"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="166" y1="166" x2="858" y2="858" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9F8FF"/>
+      <stop offset="0.4" stop-color="#6CE2FF"/>
+      <stop offset="1" stop-color="#C7F7FF"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="302" y1="274" x2="722" y2="778" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F7FB"/>
+      <stop offset="1" stop-color="#6CE2FF"/>
+    </linearGradient>
+    <filter id="glow" x="116" y="116" width="792" height="792" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="24" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="220" fill="url(#bg)"/>
+  <circle cx="512" cy="512" r="352" stroke="url(#ring)" stroke-width="28" opacity="0.95" filter="url(#glow)"/>
+  <circle cx="512" cy="512" r="290" stroke="#2A3A58" stroke-width="2" opacity="0.6"/>
+  <path d="M352 336H676V406H424V472H620V542H424V618H688V688H352V336Z" fill="url(#mark)"/>
+  <path d="M512 252L732 472H618L512 368L406 472H292L512 252Z" fill="url(#mark)" opacity="0.96"/>
+  <path d="M752 760H272" stroke="#6CE2FF" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+</svg>

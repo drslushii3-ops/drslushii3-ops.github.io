@@ -1,0 +1,28 @@
+GRIND OFFICIAL THEME — MIDNIGHT CHROME
+
+Brand personality:
+Disciplined, modern, sharp, resilient, premium, community-first.
+
+Primary colors:
+Background: #0A0D14
+Background Soft: #111724
+Panel: #171F30
+Text: #F5F7FB
+Muted Text: #A8B3C7
+Accent Cyan: #6CE2FF
+Accent Frost: #C7F7FF
+
+Typography:
+Headlines: bold sans-serif, tight spacing
+Body: clean modern sans-serif
+
+Visual rules:
+- dark background first
+- silver/cyan glow accents only
+- no rainbow colors
+- use glass panels and thin borders
+- use strong contrast and minimal clutter
+
+Logo meaning:
+The circular token mark represents consistency and continuity.
+The inner GRIND monogram forms a forward arrow shape to represent growth, direction, and momentum.
